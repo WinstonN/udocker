@@ -148,7 +148,7 @@ class Config(object):
 
     # directories to be mapped in contaners with: run --sysdirs
     sysdirs_list = (
-        "/dev", "/proc", "/sys", "/etc/resolv.conf", "/etc/host.conf",
+        "/dev", "/mnt", "/proc", "/sys", "/etc/resolv.conf", "/etc/host.conf",
         "/lib/modules",
     )
 
